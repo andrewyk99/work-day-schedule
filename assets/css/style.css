@@ -14,6 +14,28 @@ body {
   border-bottom: 10px solid black;
 }
 
+/* Styling for the entire row each hour */
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* styling for the column that shows what hour it is */
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  text-align: right;
+  padding-top: 10px;
+}
+
+/* Textbox where tasks are typed in styles */
 textarea {
   background: transparent;
   border: none;
@@ -27,25 +49,7 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-  text-align: right;
-  padding-top: 10px;
-}
-
+/* Colors for the textbox which depend on what time it currently is */
 .past {
   background-color: #d3d3d3;
   color: black;
@@ -61,6 +65,7 @@ textarea {
   color: black;
 }
 
+/* Styling for the save button at the end of the row */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -69,6 +74,7 @@ textarea {
   color: white;
 }
 
+/* Slight animation when the mouse hovers over the save button */
 .saveBtn:hover i {
   color: black;
   font-size: 20px;
