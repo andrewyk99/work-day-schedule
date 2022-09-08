@@ -1,4 +1,4 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler
 
 ## Purpose
 A website to make a schedule for a single standard work day (9AM - 5PM). The columns are color coded so it is easier for the user to see how urgently they should work on a task and how long they have left.
